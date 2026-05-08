@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788444441736",
+    "project_id": "paradastar-da258",
+    "storage_bucket": "paradastar-da258.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788444441736:android:1d31bc24ee54acb67c833d",
+        "android_client_info": {
+          "package_name": "com.paradastar.cliente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoQjOQyocVVK_gQIeznTD2FPHmRC_Wink"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
