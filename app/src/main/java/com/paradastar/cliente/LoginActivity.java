@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
@@ -13,6 +14,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText etEmail, etSenha;
     Button btnEntrar, btnIrCadastro;
+    TextView tvSairApp;
     FirebaseAuth auth;
 
     @Override
@@ -26,11 +28,14 @@ public class LoginActivity extends AppCompatActivity {
         etSenha = findViewById(R.id.etSenha);
         btnEntrar = findViewById(R.id.btnEntrar);
         btnIrCadastro = findViewById(R.id.btnIrCadastro);
+        tvSairApp = findViewById(R.id.tvSairApp);
 
         btnEntrar.setOnClickListener(v -> fazerLogin());
         btnIrCadastro.setOnClickListener(v -> {
             startActivity(new Intent(this, CadastroActivity.class));
         });
+        tvSairApp.setOnClickListener(v -> finishAffinity());
+
     }
 
     void fazerLogin() {

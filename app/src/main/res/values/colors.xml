@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="roxo">#1E124D</color>
+    <color name="cinza">#4F4746</color>
     <color name="vermelho">#C62828</color>
 </resources>
